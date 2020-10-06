@@ -4,13 +4,13 @@ class User():
         self.last = last_name
         self.email = email
         self.phone_number = phone_number
-    
+
 
     def welcome_user(self):
         print("Welcome " + self.first.title() + " " + self.last.title())
-    
+
     def describe_user(self):
-        print("Our records show that your email address is " + self.email.title() + " and your phone number is " + str(self.phone_number)) 
+        print("Our records show that your email address is " + self.email.title() + " and your phone number is " + str(self.phone_number))
 bob = User("Bob", "jenkins", "borsch@aol.com", 232-324-2343)
 victor = User("Victor", "frost", "frost@gmail.com", 734-323-3243)
 
@@ -20,4 +20,3 @@ bob.describe_user()
 
 victor.welcome_user()
 victor.describe_user()
-    
